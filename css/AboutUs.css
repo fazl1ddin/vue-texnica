@@ -1,0 +1,154 @@
+.aboutUsbox h1 {
+    font-family: 'Exo 2';
+    font-size: 28px;
+    font-weight: 700;
+}
+.aboutUsbox.last {
+    margin-bottom: 30px;
+}
+.aboutUsbox {
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 400;
+}
+.aboutUsbox.first {
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+.aboutUsbox p {
+    width: 975px;
+}
+.aboutUsbox {
+    padding: 20px 0;
+}
+.aboutUsbox.green {
+    background-color: #EDF2F6;
+    padding: 40px 0;
+    margin: 20px 0;
+}
+.aboutUsbox h3 {
+    font-family: 'Exo 2';
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.aboutUsbox.green h3 {
+    padding-bottom: 15px;
+}
+.aboutUsbox ul {
+    font-family: 'Exo 2';
+    padding: 20px 0;
+    font-weight: 700;
+}
+.aboutUsbox ul li {
+    list-style: none;
+    line-height: 200%;
+}
+.flexContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1211px;
+}
+.flexBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.flexBox div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flexBox img {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+.flexBox h4 {
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: 400;
+}
+.blue {
+    color: #4878a6;
+    font-weight: 700;
+}
+.dark {
+    font-weight: 700!important;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+.title {
+    font-size: 36px!important;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 770px) {
+    .aboutUsbox p {
+        width: 100%;
+    }
+    .aboutUsbox {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .aboutUsbox h3 {
+        padding-bottom: 15px;
+    }
+    .flexContent {
+        display: block;
+    }
+    .flexBox {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .flexBox div {
+        width: 50%;
+    }
+    .title {
+        font-size: 28px!important;
+        margin-bottom: 20px;
+    }
+    .aboutUsbox.last {
+        margin-bottom: 35px;
+    }
+    .aboutUsbox.last h1 {
+        font-size: 24px;
+    } 
+}
+@media screen and (max-width: 414px) {
+    .aboutUsbox h1 {
+        margin-bottom: 5px;
+        font-size: 24px;
+    }
+    .aboutUsbox h3 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .aboutUsbox.green {
+        padding: 30px 0;
+        margin: 15px 0;
+    }
+    .aboutUsbox.green h3 {
+        padding-bottom: 5px;
+    }
+    .flexBox {
+        display: block;
+        padding: 0;
+    }
+    .flexBox div {
+        width: 100%;
+        padding: 15px 0;
+    }
+    .aboutUsbox.last h1 {
+        font-size: 20px;
+    }
+}

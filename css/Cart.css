@@ -1,1 +1,855 @@
-
+.oformleniye {
+    padding-top: 60px;
+}
+.oformleniye h1 {
+    font-family: "Exo 2";
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.oforContent {
+    display: flex;
+    justify-content: space-between;
+}
+.oforZakaza {
+    margin-right: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.vashZakaz {
+    width: 860px;
+    margin-top: 40px;
+    padding: 0 30px;
+    border-radius: 8px;
+    border: 1px #C8CACB solid;
+}
+.vashZakaz.empty {
+    color: #C8CACB;
+    border: 1px #C8CACB solid;
+}
+.vashZakaz.empty .delivery {
+    display: none;
+}
+.vashZakaz.empty .cash {
+    display: none;
+}
+.vashZakaz.empty .recipient {
+    display: none;
+}
+.vashZakaz.end {
+    padding-bottom: 30px;
+}
+.vashZakaz.end .tovari {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.vashZakaz.end .tovar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.vashZakaz.end .tovar::after {
+    display: none;
+}
+.vashZakaz.end .ff {
+    display: none;
+}
+.vashZakaz.end .change {
+    display: block;
+    width: 200px;
+    height: 48px;
+    border: 1px solid #4878A6;
+    border-radius: 5px;
+    background: none;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 500;
+    color: #4878a6;
+}
+.vashZakaz.end .to {
+    display: block;
+}
+.vashZakaz.end .cash {
+    margin-bottom: 0;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.type {
+    display: block;
+    padding-bottom: 20px;
+    font-family: "Exo 2";
+    font-size: 24px;
+    font-weight: 700;
+}
+.vashZakaz.end .regDel {
+    display: none;
+}
+.vashZakaz.end .address {
+    display: none;
+}
+.vashZakaz.end .pick {
+    display: none;
+}
+label[for='cityr'] {
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 400;
+}
+select[id='cityr'] {
+    margin-top: 8px;
+}
+.obb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pickup {
+    margin-top: 27px;
+}
+.zakazObert.none {
+    display: none;
+}
+.none {
+    display: none;
+}
+.to {
+    display: none;
+}
+.dalee.none {
+    display: none;
+}
+.h-66 {
+    height: 66px;
+}
+.obert {
+    min-width: 100%;
+}
+.vashZakaz h3 {
+    padding: 30px 0;
+    font-family: "Exo 2";
+    font-size: 28px;
+    font-weight: 700;
+}
+.vashZakaz.n-1, .n-2, .n-3, .n-4, .n-5 h3 {
+    padding-bottom: 0;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+.imgt {
+    position: relative;
+    margin-right: 20px;
+}
+.img {
+    width: 80px;
+    height: 80px;
+}
+.oformleniye .aqua {
+    position: absolute;
+    width: 35px;
+    top: 5px;
+    left: 0;
+}
+.borpad {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #C8CACB;
+}
+.tovar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0;
+    position: relative;
+}
+.tovar::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    display: block;
+    width: 100%;
+    border-bottom: #C8CACB 1px solid;
+}
+.tovar h4 {
+    width: 280px;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 60px;
+}
+.tovar form {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+.tovar form input {
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px #C8CACB solid;
+    margin: 0px 5px;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.tovar form button {
+    width: 20px;
+    background: none;
+    border: none;
+    font-size: 27px;
+}
+.price {
+    margin-right: 55px;
+}
+.price del {
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 700;
+    color: #838688;
+}
+.visible {
+    visibility: hidden;
+}
+.to p {
+    font-family: 'Exo 2';
+    max-width: 400px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+}
+.to span {
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 400;
+    color: #838688;
+}
+.price h2 {
+    font-family: "Exo 2";
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.3px;
+    font-weight: 700;
+    color: #070c11;
+}
+.delete {
+    border: none;
+    background: none;
+}
+.itogoContent {
+    width: 420px;
+    padding: 30px;
+    background-color: #EDF2F6;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+.itogo h1 {
+    font-family: "Exo 2";
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.summu {
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #C8CACB;
+}
+.summu h5 {
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 400;
+    color: #838688;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.summu h5 span {
+    color: #070c11;
+}
+.oplata {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.oplata h4 {
+    font-family: "Exo 2";
+    font-size: 24px;
+    font-weight: 600;
+}
+.oplata h1 {
+    padding: 0;
+    font-family: "Exo 2";
+    font-size: 36px;
+    font-weight: 700;
+}
+.zakazat {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #838688;
+    border: none;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+.ready {
+    background-color: #4878A6;
+}
+.itogo form {
+    margin: 20px 35px 0px 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.itogo form input {
+    min-width: 24px;
+    min-height: 24px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.itogo form label {
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 400;
+}
+.itogo form a {
+    color: #4878a6;
+    text-decoration: none;
+}
+.dalee {
+    height: 48px;
+    width: 200px;
+    border-radius: 4px;
+    display: block;
+    background-color: #4878A6;
+    border: none;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.delivery h4 {
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.delivery select {
+    height: 48px;
+    width: 390px;
+    border: #EAEAF0 1px solid;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 0 20px;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 400;
+}
+.regDel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom: 1px solid #C8CACB;
+    margin-bottom: 30px;
+}
+.pickup {
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.pickup select {
+    width: 310px;
+}
+.pickup div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    height: 48px;
+    width: 310px;
+    border: 1px #EAEAF0 solid;
+    border-radius: 5px;
+    font-weight: 400;
+    color: #838688;
+}
+.pickup div.active {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    height: 48px;
+    width: 310px;
+    border: 3px #4878A6 solid;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #4878A6;
+}
+.pickup label {
+    font-family: 'Exo 2';
+    font-size: 16px;
+    margin-left: 10px;
+}
+.pickup input {
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    margin-left: 20px;
+} 
+.delivery input[type='text'] {
+    height: 48px;
+    width: 390px;
+    border-radius: 5px;
+    border: solid #EAEAF0 1px;
+}
+.address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+}
+.address div {
+    margin-bottom: 20px;
+}
+.area {
+    width: 100%;
+    margin: 0!important;
+}
+.address textarea {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 30px;
+    border: 1px #EAEAF0 solid;
+    border-radius: 5px;
+}
+.aviable {
+    height: 330px;
+    width: 430px;
+    overflow-y: scroll;
+    position: relative;
+    margin-right: 50px;
+}
+.aviable::-webkit-scrollbar {
+    background-color: #EDF2F6;
+    width: 4px;
+    border-radius: 4px;
+    position: absolute;
+    right: -100px;
+    top: 0;
+}
+.aviable::-webkit-scrollbar-thumb {
+    background-color: #C8CACB;
+    border-radius: 4px;
+}
+.aviable h5 {
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 400;
+}
+.pick {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.map iframe {
+    width: 320px;
+    height: 330px;
+}
+.aviable form {
+    margin-top: 30px;
+}
+.aviable form div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.aviable form input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.aviable p {
+    font-family: 'Exo 2';
+    max-width: 400px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+}
+.aviable span {
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 400;
+    color: #838688;
+}
+.cash {
+    margin-bottom: 30px;
+}
+.cash select {
+    height: 48px;
+    width: 390px;
+    border: #EAEAF0 1px solid;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 0 20px;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 400;
+}
+.recipient {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.recipient label {
+    display: block;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.recipient input {
+    height: 48px;
+    width: 390px;
+    border: #EAEAF0 1px solid;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 0 20px;
+    font-family: 'Exo 2';
+    font-size: 16px;
+    font-weight: 400;
+}
+.recipient div {
+    margin-bottom: 20px;
+}
+.dont {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px!important;
+}
+.dont label {
+    margin: 0;
+    margin-left: 5px;
+}
+.dont input {
+    width: 24px;
+    height: 24px;
+}
+.yewe {
+    display: none;
+}
+.ff {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0;
+    position: relative;
+}
+.change {
+    display: none;
+}
+@media screen and (max-width: 770px) {
+    .oforZakaza {
+        width: 728px;
+    }
+    .oformleniye h1 {
+        font-size: 28px;
+        margin-bottom: -10px;
+        padding: 0;
+    }
+    .oforContent {
+        flex-direction: column;
+    }
+    .tovar h4 {
+        width: 224px;
+        margin-right: 20px;
+    }
+    .tovar form {
+        margin-right: 50px;
+    }
+    .price {
+        margin-right: 60px;
+    }
+    .price h2 {
+        font-size: 20px;
+    }
+    .address div {
+        width: 324px;
+    }
+    .area {
+        width: 100%!important;
+    }
+    .price del {
+        font-size: 16px;
+    }
+    .delivery select {
+        width: 324px;
+    }
+    .vashZakaz h3 {
+        font-size: 24px;
+    }
+    .vashZakaz {
+        width: 100%;
+    }
+    .pb-0 {
+        padding-bottom: 0!important;
+    }
+    .aviable {
+        width: 324px;
+        margin-right: 20px;
+    }
+    .aviable p {
+        width: 291px;
+    }
+    .recipient input {
+        width: 324px;
+    }
+    .dont {
+        width: 100%;
+    }
+    .dont input {
+        width: 24px;
+        height: 24px;
+    }
+    .itogoContent {
+        width: 100%;
+    }
+    .itogo h1 {
+        font-family: "Exo 2";
+        font-size: 28px;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+    .itogo form {
+        align-items: center;
+    }
+    .itogo form input {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 414px) {
+    .oformleniye {
+        padding-top: 30px;
+    }
+    .oformleniye h1 {
+        margin-bottom: 5px;
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    .vashZakaz h3 {
+        font-size: 20px;
+        padding: 0;
+    }
+    .vashZakaz {
+        border: none;
+        padding: 20px 0;
+        margin: 0;
+        z-index: 90;
+        overflow: hidden;
+    }
+    .vashZakaz.end {
+        padding: 0;
+    }
+    .vashZakaz.empty .obb {
+        display: none;
+    }
+    .obert {
+        padding: 30px 20px 20px;
+        border-bottom: 1px solid #C8CACB;
+    }
+    .imgt {
+        margin-right: 10px;
+    }
+    .imgt, .img {
+        width: 50px;
+        height: 50px;
+    }
+    .oforZakaza {
+        width: 400px;
+    }
+    .tovar h4 {
+        font-size: 14px;
+        width: 170px;
+        margin: 0;
+        margin-right: 25px;
+        margin-bottom: 20px;
+        order: 1;
+    }
+    .tovar {
+        align-items: inherit;
+    }
+    .delete {
+        order: 2;
+    }
+    .price {
+        order: 3;
+        margin: 0;
+        margin-right: 20px;
+    }
+    .ff form {
+        order: 4;
+        margin: 0;
+    }
+    .ff {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .regDel {
+        flex-direction: column;
+        width: 100%;
+    }
+    .regDel select {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .pickup {
+        margin: 0;
+        width: 100%;
+    }
+    .pickup div {
+        width: 100%!important;
+    }
+    .dalee {
+        width: 100%;
+        margin-top: -10px;
+        position: relative;
+        z-index: 95;
+    }
+    .vashZakaz {
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .obb {
+        display: block;
+    }
+    .pick {
+        height: auto;
+    }
+    .aviable {
+        height: auto;
+    }
+    .yewe {
+        margin-top: 20px;
+    }
+    .vashZakaz.empty .yewe {
+        display: none!important;
+    }
+    .vashZakaz.end .yewe {
+        display: none!important;
+    }
+    .vashZakaz.end .change {
+        width: 100%;
+    }
+    .vashZakaz.end .tovari {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 0 -30px;
+    }
+    .vashZakaz.end .obb {
+        margin-top: 20px;
+    }
+    .vashZakaz.end .imgt {
+        width: 80px;
+        height: 80px;
+        margin: 0 30px 20px 30px;
+    }
+    .vashZakaz.end .img {
+        width: 80px;
+        height: 80px;
+    }
+    .vashZakaz, .vashZakaz.empty, .vashZakaz.end {
+        border: none;
+    }
+    .map {
+        display: none;
+    }
+    .address div {
+        width: 100%;
+        margin-right: 0;
+    }
+    .delivery select {
+        width: 100%;
+    }
+    .aviable {
+        margin: 0;
+        width: 100%;
+        overflow-y: inherit;
+    }
+    .aviable p {
+        font-size: 17px;
+        width: 100%;
+    }
+    .aviable form {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        height: 260px;
+    }
+    .pick {
+        margin-bottom: 0;
+    }
+    .mt-10 {
+        margin-top: 10px;
+    }
+    .yewe {
+        display: block;
+        width: 100%;
+        height: 48px;
+        border: 1px solid #4878A6;
+        border-radius: 5px;
+        background: none;
+        font-family: 'Exo 2';
+        font-size: 16px;
+        font-weight: 500;
+        color: #4878a6;
+    }
+    .recipient {
+        margin-top: 30px;
+    }
+    .recipient div, .recipient input {
+        width: 100%;
+    }
+    .dont {
+        margin-bottom: 0!important;
+    }
+    .dont input {
+        width: 24px;
+        height: 24px;
+    }
+    .itogoContent {
+        margin-top: 0;
+    }
+    .icons {
+        display: none;
+    }
+    .copyrightContent {
+        padding-top: 20px;
+    }
+    .oforContent {
+        padding-bottom: 20px;
+    }
+    .oplata h1 {
+        margin: 0;
+        padding: 0;
+    }
+}

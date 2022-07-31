@@ -1,0 +1,591 @@
+.slider {
+    overflow: hidden;
+    width: 970px;
+    height: 508px;
+    margin-left: 20px;
+    position: relative;
+    border-radius: 8px;
+}
+.w-970 {
+    width: 970px;
+}
+.w-100vh {
+    width: 100%;
+    margin-left: 0px;
+}
+.slider-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-image: url(@/img/slider.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100%;
+}
+.slider-item img {
+    margin-left: 100px;
+    margin-top: 90px;
+    width: 290px;
+}
+.slider-item h3 {
+    font-family: "Exo 2";
+    font-size: 40px;
+    font-weight: 200;
+    color: #fff;
+    margin-left: 100px;
+    width: 290px;
+    text-align: center;
+}
+.slider-item-active {
+    background-image: url(@/img/slider.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+}
+.headerContent .pagination {
+    position: absolute;
+    width: 98.35051546391753%;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 6px;
+}
+.headerContent .pagination-items {
+    background: #C8CACB;
+    opacity: 0.5;
+    border-radius: 2px;
+    width: 19.34020618556701%;
+    height: 25px;
+    display: block;
+    margin: 0px 2px;
+}
+.headerContent .pagination-active {
+    background: #EDF2F6;
+    border-radius: 2px;
+    opacity: 1;
+}
+.xityProdaj {
+    padding: 40px 0;
+}
+.xityProdaj h1 {
+    font-family: "Exo 2";
+    font-size: 36px;
+    font-weight: 700;
+    display: inline;
+}
+.xityProdaj .a {
+    text-decoration: none;
+    color: #2A5275;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.xityProdaj .a::after {
+    content: "\23F5";
+}
+.xityProdajContent {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.xityProdajBox {
+    max-width: 25%;
+    padding: 20px;
+    position: relative;
+    border: 1px solid #EAEAF0;
+}
+.sigvei {
+    width: 100%;
+}
+.xityProdaj .aqua {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.notific {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    text-align: right;
+    color: #fff;
+}
+.novelty {
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #48a69b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: auto;
+}
+.xit {
+    width: 125px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d73838;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.xityProdajTexti {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 110px;
+}
+.xityProdajTexti h5 {
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+    color: #838688;
+    padding-bottom: 10px;
+}
+.xityProdajTexti h3 {
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #070c11;
+}
+.rateStar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.rateStar img {
+    margin-right: 2px;
+}
+.comments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+.comments h5 {
+    margin-left: 10px;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+}
+.prices {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.pricesText del {
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 700;
+    color: #838688;
+}
+.pricesText h3 {
+    font-family: "Exo 2";
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 700;
+    color: #070c11;
+}
+.pricesText h4 {
+    background-color: #f37748;
+    border-radius: 50px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: "Exo 2";
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px 5px;
+}
+.pricesText h4 .spanone {
+    width: 35px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    font-family: "Exo 2";
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricesText h4 .spantwo {
+    padding: 0px 3px;
+}
+.statslikes {
+    height: 48px;
+    display: flex;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart a {
+    width: 230px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #4878A6;
+    border-radius: 5px;
+    font-family: "Exo 2";
+    text-decoration: none;
+    color: #4878a6;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.likebutton {
+    margin-right: 10px;
+}
+.opacity-0 {
+    opacity: 0;
+}
+.bannerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner {
+    padding-bottom: 40px;
+}
+.bannerBox {
+    width: 640px;
+    background-color: #EDF2F6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 180px;
+    padding: 0 50px;
+}
+.bannerBox h1 {
+    padding-bottom: 62px;
+    font-family: "Exo 2";
+    font-size: 28px;
+    font-weight: 700;
+    color: #070c11;
+    height: 68px;
+}
+.w-180 {
+    width: 180px;
+}
+.w-210 {
+    width: 210px;
+}
+.w-330 {
+    width: 330px;
+}
+.pr-0 {
+    padding-right: 0!important;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.pb-40 {
+    padding-bottom: 40px;
+}
+.news {
+    padding: 40px 0;
+}
+.news h1 {
+    font-family: "Exo 2";
+    font-size: 36px;
+    font-weight: 700;
+    display: inline;
+}
+.news a {
+    text-decoration: none;
+    color: #2A5275;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.news a::after {
+    content: "\23F5";
+}
+.newsContent {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.newsBox {
+    padding: 30px 50px;
+    background-color: #edf2f6;
+    border-radius: 8px;
+    width: 640px;
+}
+.newsBox h1 {
+    font-family: "Exo 2";
+    font-size: 28px;
+    font-weight: 700;
+}
+.newsBox h6 {
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 400;
+    width: 540px;
+    padding-top: 20px;
+}
+.flexer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.flexer a {
+    padding-left: 0!important;
+    color: #2a5275;
+}
+.flexer p {
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+    color: #838688;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.servisf {
+    display: none;
+}
+.nizbar {
+    display: none;
+}
+.db {
+    display: block!important;
+}
+.statslikes div {
+    display: block;
+    z-index: 50;
+    width: 48px;
+    height: 48px;
+}
+.likee {
+    display: block!important;
+}
+@media screen and (max-width: 770px) {
+    .headerNavContacts {
+        display: none;
+    }
+    .headerNavSearch .sbutton {
+        display: none;
+    }
+    .slider {
+        margin-left: 0;
+    }
+    .navCart {
+        display: none;
+    }
+    .header {
+        padding-bottom: 30px;
+    }
+    .xityProdaj {
+        padding: 30px 0;
+    }
+    .xityProdajContent {
+        flex-wrap: wrap;
+    }
+    .xityProdajBox {
+        min-width: 50%;
+    }
+    .bannerContent {
+        flex-wrap: wrap;
+    }
+    .bannerBox {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .banner {
+        padding-bottom: 10px;
+    }
+    .news {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .newsContent {
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    .newsBox {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer {
+        padding: 0;
+    }
+    .footerContent {
+        flex-wrap: wrap;
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .footerContent .logo, .footerContent ul {
+        width: 50%;
+        padding-bottom: 60px;
+        min-height: 250px;
+    }
+    .copytexts {
+        display: block;
+        width: auto;
+    }
+    .copytexts h6 {
+        padding-top: 10px;
+    }
+    .icons {
+        position: static;
+        margin: 0;
+    }
+    .servisf {
+        display: none;
+    }
+}
+@media screen and (max-width: 414px) {
+    .slider {
+        height: 180px;
+        border-radius: 3px;
+    }
+    .slider-item img {
+        margin-left: 20px;
+        width: 126px;
+        margin-top: 23px;
+    }
+    .slider-item h3 {
+        font-family: "Exo 2";
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 20px;
+        width: 126px;
+        text-align: center;
+    }
+    .xityProdaj {
+        padding: 25px 20px;
+    }
+    .xityProdaj h1 {
+        font-family: "Exo 2";
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .xityProdaj .a {
+        font-family: "Exo 2";
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .xityProdajContent {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .xityProdajBox {
+        min-width: 100%;
+    }
+    .mb-15 {
+        margin-bottom: 20px;
+    }
+    .mt-15 {
+        margin-bottom: 20px;
+    }
+    .banner {
+        padding: 0 20px 5px;
+    }
+    .bannerBox {
+        padding: 0px 30px 0px 21px;
+        position: relative;
+    }
+    .bannerBox h1 {
+        font-family: "Exo 2";
+        font-size: 16px;
+        font-weight: 700;
+        padding: 0;
+    }
+    .w-210 {
+        min-width: 118px;
+    }
+    .w-180 {
+        max-width: 100px;
+    }
+    .mr-20 {
+        margin: 0;
+        width: 180px;
+        position: absolute;
+        left: 180px;
+    }
+    .w-330 {
+        width: 188px;
+    }
+    .news {
+        padding: 25px 20px;
+    }
+    .news h1 {
+        font-family: "Exo 2";
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .news .a {
+        font-family: "Exo 2";
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .newsBox {
+        padding: 20px;
+    }
+    .newsBox h1 {
+        max-width: 240px;
+        display: inline-block;
+    }
+    .newsBox h6 {
+        width: 240px;
+    }
+    .cart a {
+        width: 280px;
+    }
+}
+.widthEnter {
+    animation-name: widthEnter;
+    animation-duration: 1s;
+}
+.widthLeave {
+    animation-name: widthLeave;
+    animation-duration: 1s;
+}
+@keyframes widthEnter {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 970px;
+    }
+}
+@keyframes widthLeave {
+    0% {
+        width: 970px;
+    }
+    100% {
+        width: 100%;
+    }
+}

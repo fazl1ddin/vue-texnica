@@ -1,0 +1,662 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#teaserfast {
+    right: -300px;
+}
+.window {
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+.headerNavContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerNavLogo img {
+    width: 185px;
+    margin-right: 140px;
+}
+.headerNavContacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 60px;
+}
+.headerNavContacts p {
+    font-family: 'Exo 2';
+    font-weight: 500;
+    font-size: 16px;
+    color: #070c11;
+}
+.center-margin-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.c-838 {
+    color: #838688!important;
+}
+.headerNavSearch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dota {
+    position: relative;
+}
+.dotspan {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    font-family: 'exo 2';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #4878A6;
+}
+.headerNavSearch .sbutton {
+    margin-right: 10px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #c0c1c2;
+    height: 42px;
+    width: 107px;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.headerNavSearch .sbutton img {
+    margin-right: 12px;
+}
+.header {
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+.headerButton {
+    height: 48px;
+    width: 99px;
+    border-radius: 4px;
+    background: #2A5275;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    margin-left: 20px;
+}
+.navbar {
+    background-color: #0e1821;
+}
+.dropdownCatalog {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #243C53;
+    padding: 14px 0;
+    width: 310px;
+}
+.dropdownCatalog p {
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding-left: 10px;
+}
+.dropdownCatalog img {
+    margin-left: 20px;  
+}
+.navbarContent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navbarContent .navbarul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 24px;
+}
+.navbarContent .navbarul li {
+    list-style: none;
+}
+.navbarContent .navbarul li a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 40px;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbarContent ul {
+    overflow: hidden;
+    width: 310px;
+    position: absolute;
+    top: 100%;
+    z-index: 100;
+}
+.navbarContent ul li {
+    list-style: none;
+    background-color: #d0e2f2;
+    transition: all ease-in-out 0.2s;
+}
+.navbarContent ul li:hover {
+    background-color: #4878A6;
+}
+.navbarContent ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #070C11;
+    font-family: "Exo 2";
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.dropdownElem li a img {
+    margin: 8px 0;
+    margin-right: 10px;
+    margin-left: 18px;
+}
+.dn {
+    display: none;
+}
+.headerContent {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer {
+    background-color: #edf2f6;
+}
+.footerContent {
+    padding: 40px 0;
+    border-bottom: 1px solid #C8CACB;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img {
+    width: 184px;
+    margin-bottom: 20px;
+}
+.logo h2 {
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+    color: #070c11;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.logo h4 {
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 400;
+    color: #838688;
+    padding-bottom: 20px;
+}
+.logo p {
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.footerContent ul h2 {
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+    color: #838688;
+    margin-bottom: 20px;
+}
+.footerContent ul li {
+    list-style: none;
+}
+.footerContent ul li a {
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: none;
+    color: #070c11;
+}
+.copyright {
+    background-color: #edf2f6;
+}
+.copyrightContent {
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.copytexts {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copytexts p {
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 400;
+    color: #838688;
+}
+.copytexts h6 {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    color: #838688;
+}
+.icons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -97px;
+    margin-top: -24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servisf {
+    display: none;
+}
+.maiNiz {
+    display: none;
+}
+.cartNiz {
+    display: none;
+}
+.searchNiz {
+    display: none;
+}
+.moreNiz {
+    display: none;
+}
+.more {
+    display: none;
+}
+.search {
+    display: none;
+}
+.navbarContent ul .title {
+    display: none;
+}
+.navs {
+    display: none;
+}
+@media screen and (max-width: 770px) {
+    .window {
+        max-width: 728px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .more {
+        display: block;
+    }
+    .search {
+        display: block;
+    }
+    .navbarContent {
+        display: flex;
+        justify-content: center;
+    }
+    .navbarContentBox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 100px;
+        position: fixed;
+        bottom: -1px;
+        width: 100%;
+        z-index: 100;
+        background-color: #2A5275;
+    }
+    .navbarContentBox div, .navbarContentBox a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Exo 2";
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+        width: 64px;
+        height: 64px;
+        margin: 0 25px;
+    }
+    .dropdownCatalog {
+        padding: 0;
+        width: auto;
+        background: none;
+        flex-direction: column;
+    }
+    .dropdownCatalog img {
+        margin: 0;
+        width: 24px;
+        height: 24px;
+    }
+    .dropdownCatalog p {
+        padding: 0;
+    }
+    .dropdownCatalog p span {
+        display: none;
+    }
+    .navbarContent .navbarul {
+        display: none;
+    }
+    .headerNavContacts {
+        display: none;
+    }
+    .headerNavSearch .sbutton {
+        display: none;
+    }
+    .headerNavSearch .cart {
+        display: none;
+    }
+    .navCart {
+        display: none;
+    }
+    .header {
+        padding-bottom: 30px;
+    }
+    .footer {
+        padding: 0;
+    }
+    .footerContent {
+        flex-wrap: wrap;
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .footerContent .logo, .footerContent ul {
+        width: 50%;
+        padding-bottom: 60px;
+        min-height: 250px;
+    }
+    .copytexts {
+        display: block;
+        width: auto;
+    }
+    .copytexts h6 {
+        padding-top: 10px;
+    }
+    .icons {
+        position: static;
+        margin: 0;
+    }
+    .servisf {
+        display: none;
+    }
+    .navbarContent ul {
+        position: fixed;
+        background-color: #fff;
+        height: 100%;
+        top: 26px;
+        width: 730px;
+        border-radius: 8px 8px 0 0;
+        z-index: 99;
+        padding: 50px;
+    }
+    .navbarContent ul li {
+        list-style: none;
+        background: none;
+    }
+    .navbarContent ul .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbarContent h1 {
+        font-family: 'Exo 2';
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .navbarContent button {
+        width: 48px;
+        height: 48px;
+        background: none;
+        line-height: 48px;
+        color: red;
+        border: none;
+        font-size: 72px;
+        font-weight: 100;
+    }
+    .dropdownElem li a img {
+        margin-left: 0;
+    }
+    .navbarContent .more a {
+        height: 46px;
+        border-bottom: 1px #C8CACB solid;
+    }
+    .search input {
+        height: 48px;
+        width: 100%;
+        border-radius: 4px;
+        border: #4878A6 1px solid;
+    }
+    .search input::placeholder {
+        font-family: 'Exo 2';
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 20px;
+    }
+    .moreNiz {
+        position: relative;
+    }
+    .dotyellow {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 12px;
+        width: 8px;
+        height: 8px;
+        background-color: #FBB13C;
+        border-radius: 50%;
+    }
+}
+@media screen and (max-width: 414px) {
+    .window {
+        max-width: 404px;
+    }
+    .footer {
+        padding: 0;
+    }
+    .navbarContent ul {
+        width: 100%;
+        padding: 20px;
+        overflow-y: scroll;
+    }
+    .footerContent {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .footerContent .logo, .footerContent ul {
+        width: 50%;
+        padding-bottom: 60px;
+        min-height: 250px;
+    }
+    .navbarContent {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbarContent div, .navbarContent a {
+        padding: 0;
+    }
+    .copytexts {
+        display: block;
+        width: auto;
+    }
+    .copytexts h6 {
+        padding-top: 10px;
+    }
+    .icons {
+        position: static;
+        margin: 0;
+    }
+    .servisf {
+        display: none;
+    }
+    .headerNavSearch a {
+        display: none;
+    }
+    .headerNavSearch span {
+        display: none;
+    }
+    .triggle::after {
+        content: " ";
+        display: block;
+        width: 8px;
+        height: 8px;
+        background-color: #fbb13c;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        right: 22px;
+    }
+    .headerNavContacts {
+        display: none;
+    }
+    .headerNavContent {
+        padding: 10px;
+    }
+    .sbutton {
+        display: none;
+    }
+    .headerNavLogo img {
+        width: 144px;
+        height: 50px;
+        margin: 0;
+    }
+    .headerButton {
+        width: 100px;
+        height: 50px;
+        margin: 0;
+    }
+    .header {
+        padding-bottom: 25px;
+    }
+    .footerContent {
+        margin: 20px 20px 0;
+        padding-top: 20px;
+    }
+    .footerContent .logo, .footerContent ul {
+        width: 100%;
+        padding: 10px 0 30px;
+        min-height: auto;
+    }
+    .drop {
+        display: none;
+    }
+    .servisf {
+        display: block;
+    }
+    .copyrightContent {
+        flex-wrap: wrap;
+        margin: 0 20px;
+        height: auto;
+    }
+    .copytexts {
+        order: 2;
+        width: 100%;
+    }
+    .icons {
+        margin: 20px 0;
+    }
+    .copytexts p {
+        font-family: "Exo 2";
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .copytexts h6 {
+        font-family: "Roboto";
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .copyright {
+        padding-bottom: 20px;
+    }
+    .headerNavContent {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .window {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .navbarContent div, .navbarContent a {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .navbarContentBox {
+        justify-content: space-around;
+    }
+    .navs {
+        display: block;
+        display: flex;
+    }
+    .navs a {
+        border: none!important;
+    }
+}
+.animEnter {
+    animation-name: animEnter;
+    animation-duration: 1s;
+}
+.animLeave {
+    animation-name: animLeave;
+    animation-duration: 1s;
+}
+.heightEnter {
+    animation-name: heightEnter;
+    animation-duration: 1s;
+}
+.heightLeave {
+    animation-name: heightLeave;
+    animation-duration: 1s;
+}
+@keyframes animEnter {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: 27px;
+    }
+}
+@keyframes animLeave {
+    0% {
+        top: 27px;
+    }
+    100% {
+        top: 100%;
+    }
+}
+@keyframes heightEnter {
+    0% {
+        height: 0%;
+    }
+    100% {
+        height: 100vh;
+    }
+}
+@keyframes heightLeave {
+    0% {
+        height: 100vh;
+    }
+    100% {
+        height: 0%;
+    }
+}

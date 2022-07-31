@@ -1,0 +1,15 @@
+.promo p {
+    margin-bottom: 40px;
+}
+.promo h4 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.promo ol {
+    list-style-position: inside;
+}
+.promo ol li {
+    line-height: 20px;
+    padding-bottom: 20px;
+}

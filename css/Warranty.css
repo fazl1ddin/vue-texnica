@@ -1,0 +1,122 @@
+.warrantyContent {
+    font-family: 'Exo 2';
+    width: 975px;
+}
+.warrantyContent h1 {
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.warrantyBox {
+    padding: 20px 0;
+}
+.warrantyBox h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #838688;
+    padding-bottom: 20px;
+}
+.warrantyBox h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #070c11;
+    padding-bottom: 20px;
+}
+.warrantyBox p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.warrantyBox p:last-child {
+    padding: 0;
+}
+.warrantyBox table {
+    border-spacing: 0;
+}
+.warrantyBox .table {
+    margin-bottom: 20px;
+}
+.warrantyBox th, .warrantyBox td {
+    border: #f2f2f2 1px solid;
+    padding: 15px 10px;
+    text-align: left;
+    vertical-align: text-top;
+}
+.warrantyBox ul, .warrantyBox ol {
+    padding-left: 30px;
+}
+.warrantyBox ul li {
+    list-style-type: disc;
+    line-height: 130%;
+}
+.yellow {
+    background-color: yellow;
+    padding: 0!important;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.warCon {
+    padding-bottom: 50px;
+}
+.warCon h1 {
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 770px) {
+    .warrantyContent {
+        width: 100%;
+    }
+    .warrantyContent h1 {
+        font-size: 28px;
+        padding-bottom: 5px;
+    }
+    .warrantyBox table {
+        width: 100%;
+    }
+    .warrantyBox {
+        padding: 15px 0;
+    }
+    .warrantyBox p {
+        font-size: 16px;
+    }
+    .warrantyBox th, td {
+        font-size: 11.5px;
+        padding: 10px 5px;
+    }
+    .warCon {
+        padding-bottom: 30px;
+    }
+    .warCon h1 {
+        padding-bottom: 30px;
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .warrantyBox .table {
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .warrantyBox .table::-webkit-scrollbar {
+        background-color: #EDF2F6;
+        height: 8px;
+    }
+    .warrantyBox .table::-webkit-scrollbar-thumb {
+        background-color: #4878A6;
+        border-radius: 4px;
+    }
+    .warrantyContent h1 {
+        font-size: 24px;
+    }
+    .warrantyBox h2 {
+        font-size: 20px;
+    }
+    .warrantyBox h3 {
+        font-size: 20px;
+    }
+    .warCon {
+        padding-bottom: 5px;
+    }
+    .warCon h1 {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+}

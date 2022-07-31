@@ -1,0 +1,37 @@
+.news.promos .content {
+    padding: 0;
+    height: 180px;
+    padding: 0 50px;
+}
+.news.promos .content h2 {
+    font-family: 'Exo 2';
+    font-size: 28px;
+    font-weight: 700;
+    width: 370px;
+    margin-top: 50px;
+}
+.news.promos .img {
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.news.promos .img img {
+    width: 100%;
+}
+@media screen and (max-width: 414px) {
+    .news.promos .content h2 {
+        font-size: 16px;
+        margin-top: 26px;
+        width: 200px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .content {
+        height: 130px!important;
+        padding: 0 20px!important;
+    }
+    .news.promos .img {
+        width: 150px;
+    }
+}

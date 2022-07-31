@@ -1,0 +1,6 @@
+.favorites .xityProdajContent {
+    width: 100%;
+}
+.viewed .favoritesContent {
+    flex-direction: column;
+}
